@@ -38,18 +38,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>me.drakeet.multitype</groupId>
-      <artifactId>multitype</artifactId>
-      <version>3.4.4</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>*</artifactId>
-          <groupId>com.android.support</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
       <groupId>com.github.bumptech.glide</groupId>
       <artifactId>glide</artifactId>
       <version>3.7.0</version>
