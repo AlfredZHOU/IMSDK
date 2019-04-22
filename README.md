@@ -2,7 +2,7 @@
 targetSdkVersion 23
 1.项目gralde文件下添加maven { url "https://raw.githubusercontent.com/AlfredZHOU/IMSDK/master/" }  
 
-2.在主module下gralde文件下添加implementation 'com.hnjy.im:imsdk:1.0.4'。  
+2.在主module下gralde文件下添加implementation 'com.hnjy.im:imsdk:版本号'。  
 若有冲突或重复包，可自行添加exclude去除。  
 如下：implementation ('com.hnjy.im:imsdk:1.0.2'){  
       exclude  group:'com.android.support'  
