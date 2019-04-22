@@ -1,23 +1,14 @@
 # IMSDK
 targetSdkVersion 23
+1.项目gralde文件下添加maven { url "https://raw.githubusercontent.com/AlfredZHOU/IMSDK/master/" }  
 
-1.项目gralde文件下添加  
-https://raw.githubusercontent.com/AlfredZHOU/IMSDK/master/。  
-如下：allprojects {  
-repositories {  
-maven { url "https://raw.githubusercontent.com/AlfredZHOU/IMSDK/master/" }  
-}  
-}  
-  
-  
 2.在主module下gralde文件下添加implementation 'com.hnjy.im:imsdk:1.0.4'。  
 若有冲突或重复包，可自行添加exclude去除。  
 如下：implementation ('com.hnjy.im:imsdk:1.0.2'){  
       exclude  group:'com.android.support'  
-  }  
-    
+ }   
+ 
 3.项目Application中初始化ImSdk.init(getApplicationContext());  
-
 
 4.开始聊天，可调用ImSdk.jump()方法，并且携带必要参数。  
 如下：ImSdk.setAppId("应用ID")  
@@ -33,7 +24,6 @@ maven { url "https://raw.githubusercontent.com/AlfredZHOU/IMSDK/master/" }
   1）消息已读回调：ReadCallBack  
   2）查看工单详情：WorkOrderCallBack  
   3）查看商品详情：GoodsCallBack  
-  
   
 6.配置Mainfest.xml,如下：  
   <activity  
