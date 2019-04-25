@@ -24,11 +24,3 @@ targetSdkVersion 23
   1）消息已读回调：ReadCallBack  
   2）查看工单详情：WorkOrderCallBack  
   3）查看商品详情：GoodsCallBack  
-  
-6.配置Mainfest.xml,如下：  
-  <activity  
-      android:name="com.hnjy.im.sdk.eim.activity.im.ChatActivity"  
-      android:launchMode="singleTop"  
-      android:screenOrientation="portrait"  
-      android:windowSoftInputMode="adjustPan|stateHidden"></activity>  
-  <activity android:name="com.hnjy.im.sdk.eim.activity.im.IMWebVActivity"></activity>  
