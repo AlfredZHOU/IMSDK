@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hnjy.im</groupId>
   <artifactId>imsdk</artifactId>
-  <version>1.5.8</version>
+  <version>1.5.9</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
