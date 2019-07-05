@@ -3,30 +3,10 @@
   <groupId>com.hnjy.im</groupId>
   <artifactId>imsdk</artifactId>
   <versioning>
-    <release>1.6.3</release>
+    <release>1.0.9</release>
     <versions>
-      <version>1.0.0</version>
-      <version>1.0.1</version>
-      <version>1.0.2</version>
-      <version>1.0.3</version>
-      <version>1.0.4</version>
-      <version>1.0.5</version>
-      <version>1.0.6</version>
-      <version>1.0.7</version>
-      <version>1.0.8</version>
       <version>1.0.9</version>
-      <version>1.1.0</version>
-      <version>1.1.1</version>
-      <version>1.1.2</version>
-      <version>1.1.3</version>
-      <version>1.5.7</version>
-      <version>1.5.8</version>
-      <version>1.5.9</version>
-      <version>1.6.0</version>
-      <version>1.6.1</version>
-      <version>1.6.2</version>
-      <version>1.6.3</version>
     </versions>
-    <lastUpdated>20190621075304</lastUpdated>
+    <lastUpdated>20190705092349</lastUpdated>
   </versioning>
 </metadata>
